@@ -1,0 +1,16 @@
+<!--pages/login/login.wxml-->
+<!-- <text>pages/login/login.wxml</text> -->
+<view class="login">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+     <view class="section">
+      <input placeholder="user" auto-focus/>
+    </view>
+    <view class="section">
+        <input password type="text" placeholder="password"/>
+   </view>
+      <view class="btn-area">
+    <button form-type="submit" size="mini" type="primary">login</button>
+    <button form-type="reset" size="mini" bindtap="register">register</button>
+  </view>
+    </form>
+</view>

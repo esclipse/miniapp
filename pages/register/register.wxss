@@ -1,0 +1,15 @@
+/* pages/register/register.wxss */
+input{
+  background: #f5f5f5;
+}
+
+.section{
+  margin-bottom: 20rpx;
+}
+
+.register{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}

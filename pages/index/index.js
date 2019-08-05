@@ -15,6 +15,13 @@ Page({
       url: '../logs/logs'
     })
   },
+  // login
+  tologin: function(){
+    console.log('hello world');
+    wx.navigateTo({
+      url:'../login/login'
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

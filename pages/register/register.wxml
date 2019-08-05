@@ -1,0 +1,22 @@
+<!--pages/register/register.wxml-->
+<!-- <text>pages/register/register.wxml</text> -->
+<view class="register">
+  <form bindsubmit="formSubmit">
+    <view class="section">
+      <input type="text" placeholder="username" name='username' value='{{form.username}}'></input>
+    </view>
+     <view class="section">
+      <input type="text" placeholder="password" password></input>
+    </view>
+    <view class="section">
+      <input type="text" placeholder="password2" password></input>
+    </view>
+     <view class="section">
+      <input type="text" placeholder="school"></input>
+    </view>
+     <view class="section">
+      <input type="text" placeholder="phone"></input>
+    </view>
+    <button type="primary" size="mini" form-type="submit">register</button>
+  </form>
+</view>
